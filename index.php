@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Library.mn</title>
-</head>
-<body>
-
+<?php include ('header.php'); ?>
 <h1>Hello World</h1>
-
-</body>
-</html>
+<?php include ('footer.php'); ?>
