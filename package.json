@@ -1,0 +1,23 @@
+{
+  "name": "library",
+  "version": "1.0.0",
+  "description": "Elibrary",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anarerdene/library.git"
+  },
+  "author": "Anar-Erdene",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anarerdene/library/issues"
+  },
+  "homepage": "https://github.com/anarerdene/library#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-sass": "^1.0.0"
+  }
+}
