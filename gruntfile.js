@@ -8,6 +8,7 @@ module.exports = function(grunt){
                 style: 'expanded'
               },
               files: {
+                'dist/css/front.css': 'src/scss/front.scss',
                 'dist/css/style.css': 'src/scss/main.scss',
               }
             }
