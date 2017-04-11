@@ -7,13 +7,13 @@ class Header extends React.Component {
     return (
 
       <div id="header">
-        <h1>Library.mn for {this.props.name}</h1>
-        <ul>
+        <div className="logo">Library.mn</div>
+        <ul classNAme="nav">
           <li>Instagram</li>
           <li>WhatsApp</li>
           <li>Oculus</li>
         </ul>
-        <Button color="success">Danger!</Button>
+        <Button color="success">Login</Button>
       </div>
     );
   }

@@ -9847,14 +9847,13 @@ var Header = function (_React$Component) {
         'div',
         { id: 'header' },
         _react2.default.createElement(
-          'h1',
-          null,
-          'Library.mn for ',
-          this.props.name
+          'div',
+          { className: 'logo' },
+          'Library.mn'
         ),
         _react2.default.createElement(
           'ul',
-          null,
+          { classNAme: 'nav' },
           _react2.default.createElement(
             'li',
             null,
@@ -9874,7 +9873,7 @@ var Header = function (_React$Component) {
         _react2.default.createElement(
           _reactstrap.Button,
           { color: 'success' },
-          'Danger!'
+          'Login'
         )
       );
     }
