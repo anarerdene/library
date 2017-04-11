@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './assets/scss/main.scss';
-
+import 'bootstrap/dist/css/bootstrap.css';
+import Header from './ui/layout/Header.jsx';
 
 ReactDOM.render(
-  <h1>Hello, world</h1>,
+  <Header />,
   document.getElementById('app')
 );
