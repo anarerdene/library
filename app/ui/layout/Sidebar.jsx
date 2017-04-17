@@ -1,19 +1,14 @@
 import React from 'react';
 
-class Header extends React.Component {
-  render() {
-    return (
-      <div id="header" className="header">
-        <h1>Library.mn for {this.props.name}</h1>
-        <ul>
-          <li>Instagram</li>
-          <li>WhatsApp</li>
-          <li>Oculus</li>
-        </ul>
+class DefaultSidebar extends React.Component {
+  render(){
+    return(
+      <div className='container-fluid'>
+        <div className="btn btn-primary mr-3">нэвтрэх</div>
+        <div className="btn btn-primary">Бүртгүүлэх</div>
       </div>
-    );
+    )
   }
 }
 
-export default Header;
-
+export default Footer

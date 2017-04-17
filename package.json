@@ -34,10 +34,7 @@
     "bootstrap": "^4.0.0-alpha.6",
     "lodash": "^4.17.4",
     "react": "^15.5.3",
-    "react-addons-css-transition-group": "^15.5.2",
-    "react-addons-transition-group": "^15.5.2",
     "react-dom": "^15.5.3",
-    "react-router": "^4.0.0",
-    "reactstrap": "^4.5.0"
+    "react-router-dom": "^4.1.1"
   }
 }

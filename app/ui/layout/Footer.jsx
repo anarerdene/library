@@ -1,19 +1,20 @@
 import React from 'react';
 
-class Header extends React.Component {
-  render() {
-    return (
-      <div id="header" className="header">
-        <h1>Library.mn for {this.props.name}</h1>
-        <ul>
-          <li>Instagram</li>
-          <li>WhatsApp</li>
-          <li>Oculus</li>
-        </ul>
-      </div>
-    );
+class Footer extends React.Component {
+  render(){
+    return(
+      <footer className='container-fluid'>
+        <div className="container">
+            <div className="row">
+                <div className="col">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis doloremque aut repudiandae magni repellendus reiciendis voluptatem eos earum aperiam dignissimos totam vel ab labore quas maiores nulla nam modi, excepturi!</div>
+                <div className="col">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis doloremque aut repudiandae magni repellendus reiciendis voluptatem eos earum aperiam dignissimos totam vel ab labore quas maiores nulla nam modi, excepturi!</div>
+                <div className="col">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis doloremque aut repudiandae magni repellendus reiciendis voluptatem eos earum aperiam dignissimos totam vel ab labore quas maiores nulla nam modi, excepturi!</div>
+                <div className="col">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis doloremque aut repudiandae magni repellendus reiciendis voluptatem eos earum aperiam dignissimos totam vel ab labore quas maiores nulla nam modi, excepturi!</div>
+            </div>
+        </div>
+      </footer>
+    )
   }
 }
 
-export default Header;
-
+export default Footer
