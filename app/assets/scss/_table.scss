@@ -1,0 +1,17 @@
+.table {
+    border-radius:0.25em;
+    overflow: hidden;
+    thead {
+        &.thead-default {
+            th {
+                background: #ef8923;
+                color: #fff;
+                padding:10px;
+                font-weight: 400;
+            }
+        }
+        th {
+            border-color: transparent;
+        }
+    }
+}
